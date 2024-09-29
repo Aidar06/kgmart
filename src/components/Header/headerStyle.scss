@@ -128,6 +128,7 @@
       overflow-x: auto;
       white-space: nowrap;
       align-items: center;
+      z-index: 5;
       &::-webkit-scrollbar {
         display: none;
       }
@@ -153,6 +154,7 @@
       margin-top: 10px;
       background: white;
       position: absolute;
+      z-index: 5;
       &__group{
         width: 95%;
         h2{
@@ -247,8 +249,11 @@
       }
     }
     &--mobMenu{
+      background: white;
+      padding: 20px 0;
       width: 100%;
       position: absolute;
+      z-index: 5;
       &__cat{
         h2{
           font-family: Arial, sans-serif;
@@ -349,6 +354,7 @@
       }
     }
     &--searchMenu{
+      z-index: 5;
       width: 100%;
       position: absolute;
       display: flex;
@@ -483,6 +489,7 @@
       display: flex;
       justify-content: space-between;
       margin-top: 20px;
+      z-index: 5;
       &__cat{
         width: 25%;
         overflow-y: scroll;
@@ -614,6 +621,7 @@
       }
     }
     &--mobMenu{
+      z-index: 5;
       width: 100%;
       margin-top: 20px;
       &__cat{
@@ -716,6 +724,7 @@
       }
     }
     &--searchMenu{
+      z-index: 5;
       width: 100%;
       display: flex;
       align-items: center;
