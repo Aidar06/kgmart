@@ -1,0 +1,124 @@
+#homeStock{
+  margin-top: 80px;
+  .homeStock{
+    width: 100%;
+    &--main{
+      width: 100%;
+      height: 150px;
+      border-radius: 20px;
+      background: url("../../../assets/bgs/unsplash_7OJPN6xe6ik.png") no-repeat center center;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      h2{
+        font-family: Golos, sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        color: white;
+        margin-left: 30px;
+        span{
+          color: orange;
+        }
+      }
+    }
+    &--main2{
+      background: url("../../../assets/bgs/unsplash_HJckKnwCXxQ.png") no-repeat center center;
+      background-size: cover;
+      margin-top: 20px;
+    }
+    &--group{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 100%;
+      div{
+        width: 32%;
+        height: 150px;
+        border-radius: 20px;
+        display: flex;
+        align-items: end;
+        margin-top: 20px;
+        h3{
+          font-family: Golos, sans-serif;
+          font-size: 24px;
+          font-weight: 700;
+          color: white;
+          margin-left: 20px;
+          margin-bottom: 20px;
+        }
+      }
+      &__block{
+        background: url("../../../assets/bgs/unsplash_o0SkrZGvrKs.png") no-repeat center center;
+        background-size: cover;
+      }
+      &__block1{
+        background: url("../../../assets/bgs/unsplash_xifUN_Mkf8Y.png") no-repeat center center;
+        background-size: cover;
+      }
+      &__block2{
+        background: url("../../../assets/bgs/unsplash_hrzqFwpsFkA.png") no-repeat center center;
+        background-size: cover;
+      }
+      &__block3{
+        background: url("../../../assets/bgs/unsplash_g5GXUqF_QDI (1).png") no-repeat center center;
+        background-size: cover;
+      }
+      &__block4{
+        background: url("../../../assets/bgs/unsplash_lP_FbBkMn1c.png") no-repeat center center;
+        background-size: cover;
+      }
+      &__block5{
+        background: url("../../../assets/bgs/unsplash_znDJ1wMLvaM.png") no-repeat center center;
+        background-size: cover;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #homeStock{
+    .homeStock{
+      &--group{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        div{
+          width: 49%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  #homeStock{
+    .homeStock{
+      &--main{
+        height: 120px;
+      }
+      &--group{
+        div{
+          height: 120px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+
+}
+
+@media (max-width: 400px) {
+
+}
+
+@media (max-width: 375px) {
+
+}
+
+@media (max-width: 320px) {
+
+}

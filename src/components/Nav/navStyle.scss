@@ -1,0 +1,37 @@
+#nav{
+  display: none;
+  padding: 20px 0;
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  width: 100%;
+  background: white;
+  box-shadow: 0 -2px 4px rgba(129, 52, 175, 0.37);
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &--block{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &__icon{
+        font-size: 30px;
+        color: #BDBDBD;
+      }
+      h2{
+        font-family: Manrope, sans-serif;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 10px;
+        color: #BDBDBD;
+      }
+    }
+  }
+}
+
+@media (max-width: 820px) {
+  #nav{
+    display: block;
+  }
+}
